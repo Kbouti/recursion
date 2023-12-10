@@ -95,3 +95,6 @@ function fibs(number) {
   
   console.log(mergeSort([6, 3, 2, 8, 7, 4, 5, 1, 2, 5]));
   console.log(mergeSort([6, 13, 62, 8, 47, 4, 5, 100, 54, 456, 78, 35, 44]));
+
+  // NOTES:
+  // After looking at other solutions I realize I could've used Math.floor to round down to the nearest integer when dividing the array by half length
